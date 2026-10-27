@@ -1,0 +1,10 @@
+{
+  "name": "sub-hub-mirror",
+  "version": "1.0.0",
+  "rewrites": [
+    { "source": "/clash.yaml", "destination": "/api/clash" },
+    { "source": "/sub", "destination": "/api/sub" },
+    { "source": "/sub.txt", "destination": "/api/subtxt" },
+    { "source": "/", "destination": "/api/index" }
+  ]
+}
